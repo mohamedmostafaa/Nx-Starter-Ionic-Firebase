@@ -1,5 +1,5 @@
 {
-  "npmScope": "nx-lab",
+  "npmScope": "nx",
   "implicitDependencies": {
     "angular.json": "*",
     "package.json": {
@@ -18,5 +18,29 @@
       }
     }
   },
-  "projects": {}
+  "projects": {
+    "mobile": {
+      "tags": []
+    },
+    "mobile-e2e": {
+      "tags": [],
+      "implicitDependencies": ["mobile"]
+    },
+    "dashboard": {
+      "tags": []
+    },
+    "dashboard-e2e": {
+      "tags": [],
+      "implicitDependencies": ["dashboard"]
+    },
+    "core-data": {
+      "tags": []
+    },
+    "components-shared": {
+      "tags": []
+    },
+    "utilities": {
+      "tags": []
+    }
+  }
 }

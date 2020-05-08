@@ -15,7 +15,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx/core-data": ["libs/core-data/src/index.ts"],
+      "@nx/components-shared": ["libs/components-shared/src/index.ts"],
+      "@nx/utilities": ["libs/utilities/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

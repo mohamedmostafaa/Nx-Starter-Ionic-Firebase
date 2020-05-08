@@ -1,0 +1,27 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "name": "core-data",
+      "path": "./libs/core-data"
+    },
+    {
+      "name": "components-shared",
+      "path": "./libs/components-shared"
+    },
+    {
+      "name": "utilities",
+      "path": "./libs/utilities"
+    },
+    {
+      "name": "dashboard",
+      "path": "./apps/dashboard"
+    },
+    {
+      "name": "mobile",
+      "path": "./apps/mobile"
+    }
+  ]
+}
